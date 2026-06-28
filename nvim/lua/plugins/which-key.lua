@@ -11,6 +11,7 @@ return {
       { "<leader>c", group = "code" },
       { "<leader>w", desc = "Save file" },
       { "<leader>m", group = "markdown" },
+      { "<leader>g", group = "git" },
     })
   end,
 }
