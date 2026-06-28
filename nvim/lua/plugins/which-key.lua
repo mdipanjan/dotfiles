@@ -10,6 +10,7 @@ return {
       { "<leader>r", group = "rename" },
       { "<leader>c", group = "code" },
       { "<leader>w", desc = "Save file" },
+      { "<leader>m", group = "markdown" },
     })
   end,
 }

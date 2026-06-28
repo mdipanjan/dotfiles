@@ -11,3 +11,7 @@ git/      Git config
 tmux/     Tmux config
 scripts/  Setup scripts
 ```
+
+## Cheatsheets
+
+- [Neovim Cheatsheet](./NVIM-CHEATSHEET.md)
