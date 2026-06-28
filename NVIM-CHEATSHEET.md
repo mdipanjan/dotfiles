@@ -66,6 +66,33 @@ Space c f   format current file
 
 Formatting also runs on save when a formatter is available.
 
+## Git / diffs
+
+```txt
+Space g d   open full diff view
+Space g c   close full diff view
+Space g p   preview current hunk
+Space g r   reset current hunk
+Space g b   blame current line
+Space g h   file history
+]c          next git change
+[c          previous git change
+```
+
+Notes:
+
+```txt
+Green/blue/red line overlays show changed lines.
+Neo-tree shows file-level git markers.
+Diffview shows only uncommitted changes by default.
+```
+
+To view the last commit diff:
+
+```vim
+:DiffviewOpen HEAD~1..HEAD
+```
+
 ## Markdown preview
 
 ```txt
